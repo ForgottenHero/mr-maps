@@ -8,7 +8,7 @@ Mr. Maps is a simple Discord bot designed to fetch specified tiles directly from
 
 ## Usage
 
-Use the command `€showmap ###` to get the map of the specified area. Specify an area by either giving a zoom, longitude, and latitude, or simply using the URL from the browser of the.
+Use the command `€showmap ###` to get the map of the specified area. Specify an area by either giving a zoom, longitude, and latitude, or simply using the URL from the browser of the area.
 
 **Examples:**
 ```
