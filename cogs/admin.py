@@ -33,7 +33,7 @@ class admin(commands.Cog):
         cog = cog + ".py"
         if functions.is_admin(ctx.message.author.id):
             try:
-                for file in os.listdir(expanduser("~/trollbot/cogs")):
+                for file in os.listdir(expanduser("~/mr-maps/cogs")):
                     if file.endswith(cog):
                         name = file[:-3]
                         try:
@@ -78,7 +78,7 @@ class admin(commands.Cog):
         """Lister alle muilige cogs"""
         if functions.is_admin(ctx.message.author.id):
             cogs = ""
-            for file in os.listdir(expanduser("~/trollbot/cogs")):
+            for file in os.listdir(expanduser("~/mr-maps/cogs")):
                cogs = cogs + file[:-3] + " "
             await ctx.send(cogs)
         else:
