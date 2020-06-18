@@ -18,4 +18,7 @@ Use the command `€showmap ###` to get the map of the specified area. Specify a
 ```
 
 ## Credits
-MarlinMR for [Trollbot](https://gitlab.com/MarlinMr/trollbot/-/tree/master)
+MarlinMR for [Trollbot](https://gitlab.com/MarlinMr/trollbot/-/tree/master).
+
+## License
+This project is licensed under the [MIT Expat](https://opensource.org/licenses/MIT/) license.
